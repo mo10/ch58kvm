@@ -1,3 +1,6 @@
 [submodule "openwch/ch583"]
 	path = openwch/ch583
 	url = https://github.com/openwch/ch583.git
+[submodule "libs/CherryUSB"]
+	path = libs/CherryUSB
+	url = https://github.com/sakumisu/CherryUSB.git
