@@ -31,7 +31,7 @@
 #define CONFIG_USBDEV_MAX_BUS 2
 
 /* Ep0 max transfer buffer, specially for receiving data from ep0 out */
-#define CONFIG_USBDEV_REQUEST_BUFFER_LEN 256
+#define CONFIG_USBDEV_REQUEST_BUFFER_LEN 512
 
 /* Setup packet log for debug */
 #define CONFIG_USBDEV_SETUP_LOG_PRINT

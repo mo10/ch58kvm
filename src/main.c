@@ -25,12 +25,11 @@ int main() {
     PFIC_EnableIRQ(TMR0_IRQn);
 
     // USB1 init
-//    hid_init(0);
-//    PFIC_EnableIRQ(USB_IRQn);
-
+    printf("\r\nUSB1 Init\r\n");
+    hid_init(0);
+    PFIC_EnableIRQ(USB_IRQn);
     // USB2 init
-
-    printf("\r\nUSB2 Init\r\n");
+    printf("USB2 Init\r\n");
     hid_init(1);
     PFIC_EnableIRQ(USB2_IRQn);
 
