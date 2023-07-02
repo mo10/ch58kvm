@@ -5,6 +5,7 @@
 
 
 #define STATUS_LED_PIN GPIO_Pin_18
+#define KEY_PIN GPIO_Pin_4
 
 
 #endif //CH58KVM_MAIN_H
