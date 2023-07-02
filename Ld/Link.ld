@@ -3,9 +3,7 @@ ENTRY( _start )
 MEMORY
 {
 
-/*  FLASH (rx)      : ORIGIN = 0x00000000, LENGTH = 448K */
-/*	RAM (xrw)       : ORIGIN = 0x20000000, LENGTH = 32K */
-	FLASH (rx)  : ORIGIN = 0x00000000, LENGTH = 64K
+    FLASH (rx)  : ORIGIN = 0x00000000, LENGTH = 448K
 	RAM (xrw)   : ORIGIN = 0x20000000, LENGTH = 32K
 }
 
